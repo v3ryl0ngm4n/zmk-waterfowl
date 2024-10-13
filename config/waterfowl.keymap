@@ -108,8 +108,8 @@
 			>;
 
 			sensor-bindings = <
-				&inc_dec_kp LEFT RIGHT
-				&inc_dec_kp C_VOL_DN C_VOL_UP
+				&inc_dec_kp DOWN UP
+				&inc_dec_kp TAB LS(TAB)
 				&inc_dec_kp DOWN UP
 				&inc_dec_kp LEFT RIGHT
 			>;
