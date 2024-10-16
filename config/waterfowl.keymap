@@ -19,48 +19,9 @@
 #define L_FUN 6
 #define L_GAME0 7
 
-&sk { quick-release; };
-
 &mt { flavor = "tap-preferred"; };
 
 / {
-    behaviors {
-        hh: behavior_homerow_hold {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_HOLD";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
-        };
-
-        lh: behavior_layer_hold {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_HOLD";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo>, <&kp>;
-        };
-
-        lhs: behavior_layer_hold_sticky {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_HOLD_STICKY";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo>, <&sk>;
-        };
-
-        caps: caps_char_word {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&lhs 0 LSHFT>, <&caps_word>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
