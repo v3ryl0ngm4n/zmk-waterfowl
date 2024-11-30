@@ -107,7 +107,7 @@
 
             bindings = <
 &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPS   &kp KP_MULTIPLY   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&trans    &trans  &trans    &trans      &kp SQT        &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BSLH
+&trans    &kp S   &trans    &trans      &kp SQT        &kp MINUS       &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BSLH
 &trans    &trans  &trans    &trans      &kp TILDE      &kp UNDERSCORE  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE
 &trans    &trans  &trans    &trans      &trans         &trans          &trans     &trans            &trans                &trans
             >;
